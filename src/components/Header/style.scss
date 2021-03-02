@@ -6,9 +6,13 @@
 
 .ant-layout-header {
   background: white !important;
+  border-bottom: 1px solid #f0f0f0;
 }
 
-
+.ant-menu-horizontal {
+  border-bottom: none !important;
+  line-height: 62px  !important;
+}
 
 .logo {
   float: left;
