@@ -1,0 +1,19 @@
+.title {
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.selector-separator {
+  padding: 0 15px;
+}
+
+.search-panel {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+
+  & > span:first-child {
+    margin-right: 25px;
+  }
+}

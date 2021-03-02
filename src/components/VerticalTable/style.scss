@@ -1,0 +1,54 @@
+.vertical-table-container {
+  display: flex;
+  position: relative;
+}
+
+.vertical-table-title-column {
+  min-width: 250px;
+  background-color: #fdfdfd;
+  border-right: 1px solid #d9d9d9;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px 30px;
+  }
+}
+
+.vertical-table-data-column {
+  display: flex;
+  overflow-x: scroll;
+  width: calc(100% - 250px);
+}
+
+.vertical-table-column {
+  border-right: 1px solid #d9d9d9;
+  min-width: 250px;
+  width: 50%;
+
+  div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    display: flex;
+  }
+  &:last-child {
+    border-right: none;
+  }
+}
+
+
+.big-column {
+  height: 150px;
+  justify-content: space-around !important;
+
+  .user-img {
+    width: 80px;
+    height: 80px;
+    background: url("../../access/user-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

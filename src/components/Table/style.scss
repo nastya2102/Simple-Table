@@ -1,0 +1,37 @@
+.ant-table-thead {
+  tr {
+    th {
+      background: transparent !important
+    }
+  }
+}
+
+.ant-table-row-selected {
+  td {
+    background-color: #fafafa !important
+  }
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: black !important;
+  border-color: black !important;
+}
+
+.ant-checkbox-indeterminate .ant-checkbox-inner::after {
+  background-color: black !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner::after {
+  border: none !important;
+}
+
+.ant-pagination-item:focus,
+.ant-pagination-item:hover,
+.ant-pagination-item-active,
+.ant-pagination-next:hover .ant-pagination-item-link,
+.ant-pagination-prev:hover .ant-pagination-item-link {
+  border-color: black !important;
+  color: black !important;
+  a {
+    color: black !important;
+  }
+}

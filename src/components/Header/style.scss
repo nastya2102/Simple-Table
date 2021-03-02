@@ -1,0 +1,22 @@
+.ant-menu-item:hover,
+.ant-menu-item-selected {
+  color: black !important;
+  border-bottom: 2px solid black !important;
+}
+
+.ant-layout-header {
+  background: white !important;
+}
+
+
+
+.logo {
+  float: left;
+  width: 31px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: url("../../access/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
