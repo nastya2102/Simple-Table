@@ -17,7 +17,8 @@ Demo: https://nastya2102.github.io/test_task/
 
 * add route for open modal
 * improve styles for header component
+* improve styles for table component
 * add search in table
-* set up and add linter to the project``
+* set up and add linter to the project
 * add testing
 * add responsive layout
