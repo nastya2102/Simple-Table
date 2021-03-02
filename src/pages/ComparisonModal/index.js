@@ -10,7 +10,7 @@ const ComparisonModal = ({data, isOpen, handleClose}) => {
         visible={isOpen}
         footer={null}
         onCancel={handleClose}
-        width={1200}
+        width={1000}
         title={
           <div className="close-container">
           <Button onClick={handleClose}>X</Button>
