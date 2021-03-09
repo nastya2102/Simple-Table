@@ -1135,7 +1135,6 @@ export const tabs = [
   },
 ];
 
-
 export const currentUser = {
   name: 'Daniel Aduszkiewicz',
   email: 'dan@humanpanel.com',

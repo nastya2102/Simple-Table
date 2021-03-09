@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Layout } from 'antd';
-import {options, users} from '../../shared/constains';
+import { options, users } from '../../shared/constains';
 import CustomSelect from '../../components/Selector';
 import Button from '../../components/Button';
 import ComparisonModal from '../../pages/ComparisonModal';
@@ -9,7 +9,7 @@ import InputSearch from '../../components/InputSearch';
 import CustomHeader from '../../components/Header';
 import './style.scss';
 
-const { Content} = Layout;
+const { Content } = Layout;
 
 const TablePage = () => {
   const [selectedRow, setSelectedRow] = useState([]);
@@ -32,14 +32,12 @@ const TablePage = () => {
     <Layout>
       <CustomHeader />
       <Content style={{ padding: '25px 50px' }}>
-        {/*<div>*/}
-          {options.map((item, i) => (
-            <span key={item.id}>
-              {i !== 0 && <span className='selector-separator'>in</span>}
-              <CustomSelect options={[item]} defaultValue={item.value}/>
-            </span>
-          ))}
-        {/*</div>*/}
+        {options.map((item, i) => (
+          <span key={item.id}>
+            {i !== 0 && <span className='selector-separator'>in</span>}
+            <CustomSelect options={[item]} defaultValue={item.value}/>
+          </span>
+        ))}
         <h1 className='title'>People</h1>
         <div className='search-panel'>
           <InputSearch value={searchValue} onSearch={onSearch} />
